@@ -1,18 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+
     <!-- Link Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <!-- Link Custom CSS -->
+    <link rel="stylesheet" href="../GIF_Generator/assets/css/style.css">
+
   </head>
 
   <body>
-    <!-- Link JQuery CDN -->
+    <!-- Create search bar & search button header -->
+    <nav class="navbar navbar-light bg-light justify-content-between">
+      <a class="navbar-brand">Celebrity GIF Search </a>
+      <form class="form-inline">
+        <input
+        id="celeb-input"
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button id="search-button" class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+    </nav>
+
+
+    <div class="container">
+            <!-- Create content Jumbotron -->
+      <div class="jumbotron">
+        <h4>Celebrities</h4>
+            <!-- Create celebrity button container -->
+        <div id="buttons-display">
+                <button data-celeb="Obama" class="button">Obama</button>
+        </div>
+        
+    </div>
+
+    <!-- Create GIF container -->
+    <div class="jumbotron">
+        <h4>GIFs</h4>
+        <div id="gif-display"></div>
+        
+    </div>
+
+
+
 
     <!-- Link JQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="../GIF_Generator/assets/javascript/app.js"></script>
+    
   </body>
 </html>
