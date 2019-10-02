@@ -59,6 +59,9 @@ $("#search-button").on("click", function(event) {
   // Prevent the form from submitting itself
   event.preventDefault();
 
+    // Clear the display
+    $("#gif-display").empty();
+
   // Grab the text from the search input box
   var newCeleb = $("#celeb-input")
     .val()
@@ -68,6 +71,9 @@ $("#search-button").on("click", function(event) {
   celebrities.push(newCeleb);
 
   console.log(celebrities);
+
+  // Clear the form-input field
+  $("#celeb-input").val("");
 
   // Run the renderButtons function to update the list of buttons on display to show the new button just added
   renderButtons();
