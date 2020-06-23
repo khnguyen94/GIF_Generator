@@ -34,7 +34,7 @@ Bootstrap
 CSS
 Javascript
 jQuery
-Google Firebase
+GIPHY API
 
 ## Authors
 Khoa Nguyen - https://github.com/khnguyen94
