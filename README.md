@@ -13,15 +13,9 @@ Code: https://github.com/khnguyen94/GIF_Generator
 5. To open up the program files in your code editor of choice, run the command: code .
 6. Now run the live server or open it in your perferred browser.
 
-## Get Started
-1. Simply go to: https://khnguyen94.github.io/GIF_Generator/
-2. Try clicking on one of the stock celebrities
-3. Add your own celebrity to the list
-4. Revisit previous celebrities and their GIFs
-
 ## Instructions via Live Link:
 
-Unfortunately, this project is not available via a live, deployed version. Something I hope to work on in the future!
+1. Simply just visit the web application at: https://khnguyen94.github.io/GIF_Generator/
 
 ## Usage
 - We have provided a few stock celebrities for users to get an idea of what they can get from our application
